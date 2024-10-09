@@ -1,4 +1,4 @@
-package com.cc.java.singleton;
+package com.cc.java.tools;
 
 public class Helper {
 
