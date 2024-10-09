@@ -26,9 +26,9 @@ public class Subject implements Observable{
     // Notification interface(), sagt bescheid
     @Override
     public void notifyObservers() {
-     
-       for (Observer o : observers) {
-        
+        for (Observer o : observers) {
+        // o.update(); //pull
+        o.update(state); //push
        }
     }
     // Observer holen sich den neuen Status
